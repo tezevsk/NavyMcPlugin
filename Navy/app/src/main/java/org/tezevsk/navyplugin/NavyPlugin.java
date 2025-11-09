@@ -37,7 +37,7 @@ public class NavyPlugin extends JavaPlugin implements Listener {
   @Override
   public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
       
-    if (command.getName().equalsIgnoreCase("navy")) {
+    if (command.getName().equalsIgnoreCase("navytp")) {
         if (args.length > 0 && args[0].equalsIgnoreCase("help")) {
             sender.sendMessage("List of commands:\n Commands inherent to navy\n  /navy help §6This page\n  §r/navy list §6List avaible worlds\n  §r/navy <dest> §6Teleport to location\n");
 
