@@ -8,16 +8,18 @@ api-version: "1.21.8"
 permissions:
   permission.node:
     description: "Anyone can access the Navigational features"
-    default: notop
+    default: true
+
     children:
       permission.node.child: true
 
 commands:
-  navy:
+  navytp:
     description: Navigate yourself trough the lobby's
     usage: "Usage: /<command> [help|list|...]"
-    aliases: [nvtp, nav, navy]
+    aliases: [nvtp, nav, navy, ntp, movin]
     permission: permission.node
+    permission-message: Strange things happen
   navylobby:
     description: A Debug commands
     usage: /<command>
