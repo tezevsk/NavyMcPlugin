@@ -1,0 +1,20 @@
+name: navy
+version: 0.1.0
+main: org.tezevsk.navyplugin.NavyPlugin
+author: tezevsk
+website: https://github.com/tezevsk/NavyMcPlugin
+api-version: "1.21.8"
+default-permission: false
+
+permissions:
+  permission.node:
+    description: "Anyone can access the Navigational features"
+    default: notop
+    children:
+      permission.node.child: true
+
+commands:
+  navy:
+    description: Navigate yourself trough the lobby's
+    usage: "Usage: /navy <location>"
+    permission: permission.node

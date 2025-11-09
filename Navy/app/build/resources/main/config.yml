@@ -1,0 +1,23 @@
+## ©TEZEVSK
+## GNU General Public License 3.0
+
+
+
+## Configuration          ##
+## By Tezevsk 09.11.2025  ##
+
+Overrides:
+  world: lobby
+  #world_nether: nether
+  #minigame: minigame
+
+  # etc. <world_name>: <name_override>
+Spawn:
+  world:
+    # coords where player teleported to specific location (lobby) would appear
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    yaw: 0.0   #look angle, leave it 0 if no need
+    pitch: 0.0 #look angle, ...
+  # Another world you would like to add

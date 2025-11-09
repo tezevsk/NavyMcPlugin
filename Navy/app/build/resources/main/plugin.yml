@@ -1,0 +1,27 @@
+name: navy
+version: 0.2.2
+main: org.tezevsk.navyplugin.NavyPlugin
+author: tezevsk
+website: https://github.com/tezevsk/NavyMcPlugin
+api-version: "1.21.8"
+
+permissions:
+  permission.node:
+    description: "Anyone can access the Navigational features"
+    default: notop
+    children:
+      permission.node.child: true
+
+commands:
+  navytp:
+    description: Navigate yourself trough the lobby's
+    usage: "Usage: /<command> <location>"
+    aliases: [nvtp, nav, navy]
+    permission: permission.node
+  navylobby:
+    description: A Debug commands
+    usage: /<command>
+    permission-message: This is debug command. Please use navytp instead
+  navytest:
+    description: Another debug command
+    usage: /<command>
