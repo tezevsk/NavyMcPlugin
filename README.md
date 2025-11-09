@@ -2,9 +2,12 @@
 Navy the plugin that enchance navigation between lobbys and world on your Minecraft server
 
 # Commands
-```/navy help``` — * help menu *
-```/navy list``` — * list of worlds defined in config.yml *
-```/navy <visible_world>``` — * teleport world and coordinates defined in ```Overrides``` and ```Spawn``` *
+```/navy help``` — *help menu*
+
+```/navy list``` — *list of worlds defined in config.yml*
+
+```/navy <visible_world>``` — *teleport world and coordinates defined in ```Overrides``` and ```Spawn```*
+
 
 # Configuration
 ## Structure:
@@ -26,14 +29,14 @@ Spawn:
 ```
 
 ## Explanation:
- * Overrides * — How the world would be accessed via command
- * <world_name> * — actual world name _(like in hierarchy)_
- * <visible_name> * — Name expected and used by player (ex. Lobby)
+ * Overrides — How the world would be accessed via command
+ * <world_name> — actual world name _(like in hierarchy)_
+ * <visible_name> — Name expected and used by player (ex. Lobby)
  
  * Spawn * — Where the player would appear
- * <x_spawn> * — X spawn location 
- * <y_spawn> * — Y spawn location
- * <z_spawn> * — Z spawn location
+ * <x_spawn> — X spawn location 
+ * <y_spawn> — Y spawn location
+ * <z_spawn> — Z spawn location
 
 ## Complete code example:
 config.yml
